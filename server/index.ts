@@ -88,6 +88,34 @@ async function iniciarServidor() {
     }
   });
 
+  // Rota para listar todos os envios de prestação de contas
+  app.get("/api/uploads/list", (_req, res) => {
+    if (!fs.existsSync(uploadsMetadataFile)) {
+      return res.json([]);
+    }
+    try {
+      const data = JSON.parse(fs.readFileSync(uploadsMetadataFile, "utf-8"));
+      return res.json(data);
+    } catch (e) {
+      return res.status(500).json({ error: "Erro ao ler lista de envios." });
+    }
+  });
+
+  // Rota para baixar qualquer arquivo salvo pelo nome
+  app.get("/api/uploads/download/:filename", (req, res) => {
+    const filename = req.params.filename.replace(/[^a-zA-Z0-9._-]/g, "_");
+    const filePath = path.join(uploadsDir, filename);
+
+    if (fs.existsSync(filePath)) {
+      return res.download(filePath);
+    } else {
+      return res.status(404).json({ error: "Arquivo não encontrado." });
+    }
+  });
+
+  // Servir a pasta de uploads publicamente
+  app.use("/uploads", express.static(uploadsDir));
+
   const staticPath =
     process.env.NODE_ENV === "production"
       ? path.resolve(__dirname, "public")

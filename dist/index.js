@@ -69,6 +69,27 @@ async function iniciarServidor() {
       return res.status(500).json({ success: false, error: "Falha ao salvar documentos no servidor." });
     }
   });
+  app.get("/api/uploads/list", (_req, res) => {
+    if (!fs.existsSync(uploadsMetadataFile)) {
+      return res.json([]);
+    }
+    try {
+      const data = JSON.parse(fs.readFileSync(uploadsMetadataFile, "utf-8"));
+      return res.json(data);
+    } catch (e) {
+      return res.status(500).json({ error: "Erro ao ler lista de envios." });
+    }
+  });
+  app.get("/api/uploads/download/:filename", (req, res) => {
+    const filename = req.params.filename.replace(/[^a-zA-Z0-9._-]/g, "_");
+    const filePath = path.join(uploadsDir, filename);
+    if (fs.existsSync(filePath)) {
+      return res.download(filePath);
+    } else {
+      return res.status(404).json({ error: "Arquivo n\xE3o encontrado." });
+    }
+  });
+  app.use("/uploads", express.static(uploadsDir));
   const staticPath = process.env.NODE_ENV === "production" ? path.resolve(__dirname, "public") : path.resolve(__dirname, "..", "dist", "public");
   app.use(express.static(staticPath));
   app.get("*", (_req, res) => {
