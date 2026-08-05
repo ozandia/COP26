@@ -64,8 +64,11 @@ const timeline: TimelineItem[] = [
         ],
     },
     {
-        time: "18h00",
-        title: "Encerramento",
+        time: "17h30-18h30",
+        title: "Reunião Dra. Camila Pintarelli - Palco 01",
+         bullets: [
+           "Painel 13 - Tema: 25 anos do FNSP, Segurança e Investimento.",
+        ],
     },
 ];
 
@@ -97,7 +100,7 @@ export function ScheduleCard() {
                     >
                         <span className="font-semibold text-slate-800">Reunião Técnica</span>
                         <div className="flex items-center gap-3 flex-shrink-0">
-                            <span className="text-sm text-slate-500">14h – 18h &nbsp;|&nbsp; Sala da Rede Interfederativa de Convênios</span>
+                            <span className="text-sm text-slate-500">14h – 18h30 &nbsp;|&nbsp; Sala da Rede Interfederativa de Convênios</span>
                             {open ? (
                                 <ChevronUp className="w-4 h-4 text-slate-400" />
                             ) : (

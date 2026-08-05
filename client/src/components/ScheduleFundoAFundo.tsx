@@ -28,7 +28,7 @@ export function ScheduleFundoAFundo() {
                             Reunião da Rede Interfederativa
                         </h3>
                         <div className="flex items-center gap-3 text-sm text-gray-500">
-                            <span className="hidden md:inline">14h – 17h30 | Sala 4, no ILAB</span>
+                            <span className="hidden md:inline">14h – 18h30 | Sala 4, no ILAB</span>
                             {isOpenDay4 ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />}
                         </div>
                     </div>
@@ -54,7 +54,19 @@ export function ScheduleFundoAFundo() {
                                         <li>Pactuação 2026</li>
                                     </ul>
                                 </div>
+                                 {/* Item 2 */}
+                                <div className="relative">
+                                    <div className="absolute -left-7 md:-left-8 top-1.5 w-3 h-3 bg-blue-500 rounded-full ring-4 ring-white"></div>
+                                    <div className="flex flex-col md:flex-row md:gap-4 md:items-baseline mb-2">
+                                        <span className="text-sm font-bold text-emerald-600 md:w-28 shrink-0">17h30 – 18h30</span>
+                                        <h4 className="text-base font-bold text-gray-900">Reunião Dra. Camila Pintarelli - Palco 01</h4>
+                                    </div>
+                                    <ul className="text-sm text-gray-600 list-disc list-inside space-y-1 md:ml-32">
+                                        <li>Painel 13 - Tema: 25 anos do FNSP, Segurança e Investimento.</li>
+                                    </ul>
+                                </div>
                             </div>
+                                   
                         </div>
                     )}
                 </div>
@@ -137,7 +149,7 @@ export function ScheduleFundoAFundo() {
                         onClick={() => setIsOpenDay6(!isOpenDay6)}
                     >
                         <h3 className="text-sm md:text-base font-bold text-gray-900 group-hover:text-blue-600 transition-colors">
-                            Lançamento dos Módulos de Plano e Gestão
+                            Lançamento dos Módulos do Plano de Aplicação e Gestão
                         </h3>
                         <div className="flex items-center gap-3 text-sm text-gray-500">
                             <span className="hidden md:inline">09h00 – 11h30 | Auditório, no ILAB</span>

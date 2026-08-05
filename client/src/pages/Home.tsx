@@ -128,28 +128,30 @@ export default function Home() {
                 </p>
               </div>
 
-              <div className="flex flex-wrap items-center gap-4">
-                <div className="flex items-center gap-2 text-white">
-                  <MapPin className="w-5 h-5 text-accent" aria-hidden="true" />
-                  <span className="font-semibold text-base sm:text-lg">São Paulo/SP</span>
+              <div className="flex flex-col gap-4">
+                <div className="flex flex-wrap items-center gap-x-6 gap-y-2 text-white">
+                  <div className="flex items-center gap-2">
+                    <MapPin className="w-5 h-5 text-accent" aria-hidden="true" />
+                    <span className="font-semibold text-base sm:text-lg">São Paulo/SP</span>
+                  </div>
+                </div>
+
+                <div className="flex flex-wrap gap-4 pt-2">
+                  <Button asChild className="h-11 sm:h-14 px-6 sm:px-10 text-base sm:text-lg shadow-xl bg-accent text-primary font-bold hover:bg-accent/90 rounded-md transition-all">
+                    <a
+                      href="https://www.google.com/maps/search/?api=1&query=Expo+São+Paulo+Rodovia+dos+Imigrantes"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Ver localização do Expo São Paulo no Google Maps (abre em nova janela)"
+                    >
+                      <MapPinIcon className="w-5 h-5 mr-2" aria-hidden="true" />
+                      Localização Expo São Paulo
+                    </a>
+                  </Button>
                 </div>
               </div>
-
-              <div className="flex flex-wrap gap-4 pt-2">
-                <Button asChild className="h-11 sm:h-14 px-6 sm:px-10 text-base sm:text-lg shadow-xl bg-accent text-primary font-bold hover:bg-accent/90 rounded-md transition-all">
-                  <a
-                    href="https://www.google.com/maps/search/?api=1&query=Expo+São+Paulo+Rodovia+dos+Imigrantes"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="Ver localização do Expo São Paulo no Google Maps (abre em nova janela)"
-                  >
-                    <MapPinIcon className="w-5 h-5 mr-2" aria-hidden="true" />
-                    Localização Expo São Paulo
-                  </a>
-                </Button>
-              </div>
             </div>
-          </div>
+            </div>
         </section>
 
         {/* Programação Section */}
@@ -489,7 +491,7 @@ export default function Home() {
                     </div>
                     <div className="space-y-4">
                       <a
-                        href="https://wa.me/5561981651716"
+                        href="https://wa.me/5585987655958"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center gap-3 py-2 px-4 bg-[#25D366]/10 border border-[#25D366]/20 rounded-lg group hover:bg-[#25D366]/20 transition-all w-fit"
@@ -501,7 +503,7 @@ export default function Home() {
                           </svg>
                         </div>
                         <div className="flex flex-col">
-                          <span className="text-[#25D366] font-bold text-lg leading-tight">(61) 98165-1716</span>
+                          <span className="text-[#25D366] font-bold text-lg leading-tight">(85) 98765-5958</span>
                           <span className="text-white/50 text-[10px] uppercase tracking-wider font-bold">WhatsApp</span>
                         </div>
                       </a>
