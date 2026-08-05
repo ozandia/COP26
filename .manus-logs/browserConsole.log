@@ -293,3 +293,8 @@
 [2026-08-05T11:57:54.293Z] {"timestamp":1785931073446,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
 [2026-08-05T11:57:54.293Z] {"timestamp":1785931073460,"level":"DEBUG","args":["[vite]","hot updated: /src/components/ProgramacaoWizard.tsx"],"stack":null}
 [2026-08-05T11:57:54.293Z] {"timestamp":1785931073460,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-05T12:05:13.837Z] {"timestamp":1785931512001,"level":"ERROR","args":["[vite]","Failed to reload /src/pages/Home.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)"],"stack":"Error\n    at console.error (http://localhost:3000/__manus__/debug-collector.js:391:37)\n    at Object.error (http://localhost:3000/@vite/client:809:26)\n    at HMRClient.warnFailedUpdate (http://localhost:3000/@vite/client:181:15)\n    at HMRClient.fetchUpdate (http://localhost:3000/@vite/client:212:10)\n    at async Promise.all (index 0)\n    at async HMRClient.queueUpdate (http://localhost:3000/@vite/client:196:5)\n    at async Promise.all (index 0)\n    at async handleMessage (http://localhost:3000/@vite/client:838:4)"}
+[2026-08-05T12:05:13.837Z] {"timestamp":1785931512060,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-08-05T12:05:13.837Z] {"timestamp":1785931512060,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-05T12:07:32.335Z] {"timestamp":1785931651551,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-08-05T12:07:32.335Z] {"timestamp":1785931651552,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}

@@ -245,153 +245,112 @@ export default function Home() {
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
-            <Card className="card-premium">
+            <Card className="card-premium md:col-span-2">
               <CardHeader>
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
                     <UtensilsCrossed className="w-6 h-6 text-primary" />
                   </div>
                   <div>
-                    <CardTitle className="text-2xl text-primary">Culinária</CardTitle>
-                    <CardDescription>Experiências gastronômicas recomendadas</CardDescription>
+                    <CardTitle className="text-2xl text-primary">Roteiro Recomendado — São Paulo</CardTitle>
+                    <CardDescription>Gastronomia e pontos de destaque próximos para os participantes</CardDescription>
                   </div>
                 </div>
               </CardHeader>
               <CardContent className="space-y-6">
-                <div className="space-y-4">
-                  <div className="space-y-2">
-                    <h4 className="font-bold text-primary">Setor de Clubes Sul</h4>
-                    <p className="text-sm text-gray-600 leading-relaxed">
-                      Localizado às margens do Lago Paranoá, oferece restaurantes sofisticados com carnes, frutos do mar e culinária contemporânea.
-                    </p>
-                  </div>
-
-                  <div className="space-y-4 pt-4 border-t border-gray-100">
-                    <div className="flex items-start gap-4 p-3 bg-gray-50 rounded-lg group hover:bg-white hover:shadow-md transition-all">
-                      <div className="w-2 h-2 bg-accent rounded-full mt-2"></div>
-                      <div className="flex-1">
-                        <p className="font-bold text-primary">Pontão do Lago Sul</p>
-                        <p className="text-xs text-gray-500">O maior centro de lazer e gastronomia da capital, ideal para um jantar com vista para a Ponte JK.</p>
-                        <a href="https://maps.app.goo.gl/vP3Zc6u8zWp8N8yA8" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-xs text-accent hover:underline mt-1">
-                          <MapPin className="w-3 h-3" /> Ver no Maps
-                        </a>
-                      </div>
-                    </div>
-
-                    <div className="flex items-start gap-4 p-3 bg-gray-50 rounded-lg group hover:bg-white hover:shadow-md transition-all">
-                      <div className="w-2 h-2 bg-accent rounded-full mt-2"></div>
-                      <div className="flex-1">
-                        <p className="font-bold text-primary">Shopping Pier 21</p>
-                        <p className="text-xs text-gray-500">St. de Clubes Esportivos Sul Trecho 2 - Asa Sul, Brasília - DF</p>
-                        <a href="https://maps.app.goo.gl/9RzG5aJ8Bf1Z2rJ79" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-xs text-accent hover:underline mt-1">
-                          <MapPin className="w-3 h-3" /> Ver no Maps
-                        </a>
-                      </div>
-                    </div>
-
-                    <div className="flex items-start gap-4 p-3 bg-gray-50 rounded-lg group hover:bg-white hover:shadow-md transition-all">
-                      <div className="w-2 h-2 bg-accent rounded-full mt-2"></div>
-                      <div className="flex-1">
-                        <p className="font-bold text-primary">Açougue do Berg</p>
-                        <p className="text-xs text-gray-500">St. de Clubes Esportivos Sul Trecho 2 Ao lado da ASBAC conjunto 31</p>
-                        <a href="https://www.google.com/maps/search/?api=1&query=Açougue+do+Berg+Setor+de+Clubes+Esportivos+Sul+Trecho+2+Brasília" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-xs text-accent hover:underline mt-1">
-                          <MapPin className="w-3 h-3" /> Ver no Maps
-                        </a>
-                      </div>
-                    </div>
-
-                    <div className="flex items-start gap-4 p-3 bg-gray-50 rounded-lg group hover:bg-white hover:shadow-md transition-all">
-                      <div className="w-2 h-2 bg-accent rounded-full mt-2"></div>
-                      <div className="flex-1">
-                        <p className="font-bold text-primary">Coco Bambu Lado Sul</p>
-                        <p className="text-xs text-gray-500">St. de Clubes Esportivos Sul Trecho 2 Ícone Parque Conjunto 36</p>
-                        <a href="https://www.google.com/maps/search/?api=1&query=Coco+Bambu+Lago+Sul+SCES+Trecho+2+Conjunto+36+Brasília" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-xs text-accent hover:underline mt-1">
-                          <MapPin className="w-3 h-3" /> Ver no Maps
-                        </a>
-                      </div>
-                    </div>
-
-                    <div className="flex items-start gap-4 p-3 bg-gray-50 rounded-lg group hover:bg-white hover:shadow-md transition-all">
-                      <div className="w-2 h-2 bg-accent rounded-full mt-2"></div>
-                      <div className="flex-1">
-                        <p className="font-bold text-primary">Fogo de Chão Brasília</p>
-                        <p className="text-xs text-gray-500">ST DE CLUBES ESPORTIVOS SUL, Asa Sul Trecho 2 2/11</p>
-                        <a href="https://www.google.com/maps/search/?api=1&query=Fogo+de+Chão+Brasília+Setor+de+Clubes+Esportivos+Sul+Trecho+2" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-xs text-accent hover:underline mt-1">
-                          <MapPin className="w-3 h-3" /> Ver no Maps
-                        </a>
-                      </div>
-                    </div>
-
-                    <div className="flex items-start gap-4 p-3 bg-gray-50 rounded-lg group hover:bg-white hover:shadow-md transition-all">
-                      <div className="w-2 h-2 bg-accent rounded-full mt-2"></div>
-                      <div className="flex-1">
-                        <p className="font-bold text-primary">Nau Frutos do Mar</p>
-                        <p className="text-xs text-gray-500">Setor de Clubes Esportivos Sul, Asa Sul Trecho 2</p>
-                        <a href="https://www.google.com/maps/search/?api=1&query=Nau+Frutos+do+Mar+Brasília+SCES+Trecho+2" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-xs text-accent hover:underline mt-1">
-                          <MapPin className="w-3 h-3" /> Ver no Maps
-                        </a>
-                      </div>
-                    </div>
-
-                    <div className="flex items-start gap-4 p-3 bg-gray-50 rounded-lg group hover:bg-white hover:shadow-md transition-all">
-                      <div className="w-2 h-2 bg-accent rounded-full mt-2"></div>
-                      <div className="flex-1">
-                        <p className="font-bold text-primary">Mangai Lago</p>
-                        <p className="text-xs text-gray-500">SCE Sul, s/n - Lote 2, Asa Sul, Brasília - DF</p>
-                        <a href="https://www.google.com/maps/search/?api=1&query=Mangai+Lago+Brasília+SCES+Trecho+2" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-xs text-accent hover:underline mt-1">
-                          <MapPin className="w-3 h-3" /> Ver no Maps
-                        </a>
-                      </div>
-                    </div>
-
-                    <div className="flex items-start gap-4 p-3 bg-gray-50 rounded-lg group hover:bg-white hover:shadow-md transition-all">
-                      <div className="w-2 h-2 bg-accent rounded-full mt-2"></div>
-                      <div className="flex-1">
-                        <p className="font-bold text-primary">Galeteria Beira Lago</p>
-                        <p className="text-xs text-gray-500">SCE Sul, Trecho 2, Conjunto 33 - Centro, Brasília - DF</p>
-                        <a href="https://www.google.com/maps/search/?api=1&query=Galeteria+Beira+Lago+SCES+Trecho+2" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-xs text-accent hover:underline mt-1">
-                          <MapPin className="w-3 h-3" /> Ver no Maps
-                        </a>
-                      </div>
+                <div className="grid sm:grid-cols-2 gap-4">
+                  {/* Opção 1 */}
+                  <div className="flex items-start gap-4 p-4 bg-gray-50 rounded-xl group hover:bg-white hover:shadow-md transition-all border border-gray-100">
+                    <div className="w-2.5 h-2.5 bg-accent rounded-full mt-2 shrink-0"></div>
+                    <div className="flex-1">
+                      <p className="font-bold text-primary text-base">Jardim de Napoli (Moema)</p>
+                      <p className="text-xs text-gray-600 leading-relaxed mt-1">
+                        Cantina italiana tradicional, famosa pelo polpettone. Clima acolhedor, a 15-20 min da Expo.
+                      </p>
+                      <a
+                        href="https://www.google.com/maps/search/?api=1&query=Jardim+de+Napoli+Moema+Sao+Paulo"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-1 text-xs text-accent font-bold hover:underline mt-2"
+                      >
+                        <MapPin className="w-3.5 h-3.5" /> Ver no Google Maps
+                      </a>
                     </div>
                   </div>
-                </div>
-              </CardContent>
-            </Card>
 
-            <Card className="card-premium">
-              <CardHeader>
-                <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <MapPin className="w-6 h-6 text-primary" />
-                  </div>
-                  <div>
-                    <CardTitle className="text-2xl text-primary">Cultura</CardTitle>
-                    <CardDescription>Pontos turísticos essenciais</CardDescription>
-                  </div>
-                </div>
-              </CardHeader>
-              <CardContent className="space-y-6">
-                <div className="space-y-4">
-                  <div className="flex items-start gap-4 p-3 bg-gray-50 rounded-lg">
-                    <div className="w-2 h-2 bg-accent rounded-full mt-2"></div>
-                    <div>
-                      <p className="font-bold text-primary">Praça dos Três Poderes</p>
-                      <p className="text-xs text-gray-500">Centro político e arquitetura de Niemeyer</p>
+                  {/* Opção 2 */}
+                  <div className="flex items-start gap-4 p-4 bg-gray-50 rounded-xl group hover:bg-white hover:shadow-md transition-all border border-gray-100">
+                    <div className="w-2.5 h-2.5 bg-accent rounded-full mt-2 shrink-0"></div>
+                    <div className="flex-1">
+                      <p className="font-bold text-primary text-base">A Figueira Rubaiyat (Jardins)</p>
+                      <p className="text-xs text-gray-600 leading-relaxed mt-1">
+                        Ícone paulistano de carnes nobres, ambiente elegante ao redor de uma figueira centenária.
+                      </p>
+                      <a
+                        href="https://www.google.com/maps/search/?api=1&query=A+Figueira+Rubaiyat+Jardins+Sao+Paulo"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-1 text-xs text-accent font-bold hover:underline mt-2"
+                      >
+                        <MapPin className="w-3.5 h-3.5" /> Ver no Google Maps
+                      </a>
                     </div>
                   </div>
-                  <div className="flex items-start gap-4 p-3 bg-gray-50 rounded-lg">
-                    <div className="w-2 h-2 bg-accent rounded-full mt-2"></div>
-                    <div>
-                      <p className="font-bold text-primary">Catedral Metropolitana</p>
-                      <p className="text-xs text-gray-500">Design icônico e vitrais impressionantes</p>
+
+                  {/* Opção 3 */}
+                  <div className="flex items-start gap-4 p-4 bg-gray-50 rounded-xl group hover:bg-white hover:shadow-md transition-all border border-gray-100">
+                    <div className="w-2.5 h-2.5 bg-accent rounded-full mt-2 shrink-0"></div>
+                    <div className="flex-1">
+                      <p className="font-bold text-primary text-base">Ristorantino (Jardins)</p>
+                      <p className="text-xs text-gray-600 leading-relaxed mt-1">
+                        Italiana sofisticada em clima intimista, ideal para uma noite mais tranquila.
+                      </p>
+                      <a
+                        href="https://www.google.com/maps/search/?api=1&query=Ristorantino+Jardins+Sao+Paulo"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-1 text-xs text-accent font-bold hover:underline mt-2"
+                      >
+                        <MapPin className="w-3.5 h-3.5" /> Ver no Google Maps
+                      </a>
                     </div>
                   </div>
-                  <div className="flex items-start gap-4 p-3 bg-gray-50 rounded-lg">
-                    <div className="w-2 h-2 bg-accent rounded-full mt-2"></div>
-                    <div>
-                      <p className="font-bold text-primary">Ermida Dom Bosco</p>
-                      <p className="text-xs text-gray-500">Melhor pôr do sol de Brasília</p>
+
+                  {/* Opção 4 */}
+                  <div className="flex items-start gap-4 p-4 bg-gray-50 rounded-xl group hover:bg-white hover:shadow-md transition-all border border-gray-100">
+                    <div className="w-2.5 h-2.5 bg-accent rounded-full mt-2 shrink-0"></div>
+                    <div className="flex-1">
+                      <p className="font-bold text-primary text-base">Skye Bar & Restaurante (Hotel Unique)</p>
+                      <p className="text-xs text-gray-600 leading-relaxed mt-1">
+                        No topo do Hotel Unique, com uma das vistas mais bonitas da cidade. Ótimo para fechar a noite.
+                      </p>
+                      <a
+                        href="https://www.google.com/maps/search/?api=1&query=Skye+Bar+Hotel+Unique+Sao+Paulo"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-1 text-xs text-accent font-bold hover:underline mt-2"
+                      >
+                        <MapPin className="w-3.5 h-3.5" /> Ver no Google Maps
+                      </a>
+                    </div>
+                  </div>
+
+                  {/* Opção 5 */}
+                  <div className="flex items-start gap-4 p-4 bg-gray-50 rounded-xl group hover:bg-white hover:shadow-md transition-all border border-gray-100 sm:col-span-2">
+                    <div className="w-2.5 h-2.5 bg-accent rounded-full mt-2 shrink-0"></div>
+                    <div className="flex-1">
+                      <p className="font-bold text-primary text-base">Japan House + Avenida Paulista</p>
+                      <p className="text-xs text-gray-600 leading-relaxed mt-1">
+                        Passeio noturno pela Paulista, visita à Japan House e jantar na região.
+                      </p>
+                      <a
+                        href="https://www.google.com/maps/search/?api=1&query=Japan+House+Avenida+Paulista+Sao+Paulo"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-1 text-xs text-accent font-bold hover:underline mt-2"
+                      >
+                        <MapPin className="w-3.5 h-3.5" /> Ver no Google Maps
+                      </a>
                     </div>
                   </div>
                 </div>
