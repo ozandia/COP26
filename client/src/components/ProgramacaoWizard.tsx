@@ -142,8 +142,19 @@ export function ProgramacaoWizard() {
         },
         {
             id: 4,
-            label: "Logística",
-            description: "Rede Interfederativa de Logística",
+            label: "CONDPC",
+            description: "Conselho Nacional de Dirigentes de Perícia Criminal",
+            content: (
+                <div className="space-y-4">
+                    <Day03Card />
+                    <ScheduleLogistica />
+                </div>
+            )
+        },
+        {
+            id: 5,
+            label: "LIGABOM",
+            description: "Ligação dos Corpos de Bombeiros Militares do Brasil",
             content: (
                 <div className="space-y-4">
                     <Day03Card />

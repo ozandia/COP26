@@ -283,3 +283,9 @@
 [2026-08-05T11:48:32.194Z] {"timestamp":1785930477177,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
 [2026-08-05T11:48:32.194Z] {"timestamp":1785930477199,"level":"DEBUG","args":["[vite]","hot updated: /src/components/ProgramacaoWizard.tsx"],"stack":null}
 [2026-08-05T11:48:32.194Z] {"timestamp":1785930477200,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-05T11:50:58.503Z] {"timestamp":1785930658419,"level":"LOG","args":["[vite] server connection lost. Polling for restart..."],"stack":null}
+[2026-08-05T11:51:01.825Z] {"timestamp":1785930659820,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-08-05T11:51:01.825Z] {"timestamp":1785930659940,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-08-05T11:51:01.825Z] {"timestamp":1785930660058,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-08-05T11:53:32.195Z] {"timestamp":1785930759794,"level":"DEBUG","args":["[vite]","hot updated: /src/components/ProgramacaoWizard.tsx"],"stack":null}
+[2026-08-05T11:53:32.195Z] {"timestamp":1785930759795,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
