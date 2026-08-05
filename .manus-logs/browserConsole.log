@@ -298,3 +298,7 @@
 [2026-08-05T12:05:13.837Z] {"timestamp":1785931512060,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
 [2026-08-05T12:07:32.335Z] {"timestamp":1785931651551,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
 [2026-08-05T12:07:32.335Z] {"timestamp":1785931651552,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-05T12:14:32.196Z] {"timestamp":1785932055033,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-05T12:14:32.196Z] {"timestamp":1785932055036,"level":"DEBUG","args":["[vite]","hot updated: /src/components/GroupScheduleViewer.tsx"],"stack":null}
+[2026-08-05T12:14:55.830Z] {"timestamp":1785932093884,"level":"DEBUG","args":["[vite]","hot updated: /src/components/ProgramacaoWizard.tsx"],"stack":null}
+[2026-08-05T12:14:55.831Z] {"timestamp":1785932093884,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}

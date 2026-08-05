@@ -383,29 +383,20 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
 
   return (
     <div className="space-y-6">
-      {/* Cabeçalho do Grupo */}
-      <div className="bg-gradient-to-r from-primary to-slate-900 text-white p-6 rounded-2xl shadow-md border border-primary/20 flex flex-col md:flex-row md:items-center justify-between gap-4">
-        <div>
-          <span className="px-3 py-1 bg-accent/20 text-accent font-bold rounded-md text-xs uppercase tracking-widest border border-accent/30 inline-block mb-2">
-            Programação Oficial
-          </span>
-          <h2 className="text-2xl md:text-3xl font-extrabold text-white tracking-tight">{groupTitle}</h2>
-          <p className="text-white/70 text-sm mt-1">{groupDescription}</p>
-        </div>
-
-        {/* Seleção de Dias */}
-        <div className="flex items-center gap-2 bg-white/10 p-1.5 rounded-xl border border-white/10 shrink-0">
+      {/* Cabeçalho Limpo — Apenas Seleção de Dias do Evento */}
+      <div className="bg-gradient-to-r from-primary to-slate-900 p-4 rounded-2xl shadow-md border border-primary/20 flex items-center justify-center">
+        <div className="flex items-center gap-3 bg-white/10 p-2 rounded-xl border border-white/10">
           {(["11", "12", "13"] as const).map((day) => (
             <button
               key={day}
               onClick={() => setSelectedDay(day)}
-              className={`px-4 py-2 rounded-lg font-bold text-xs transition-all flex items-center gap-1.5 ${
+              className={`px-5 py-2.5 rounded-lg font-extrabold text-sm transition-all flex items-center gap-2 ${
                 selectedDay === day
                   ? "bg-accent text-primary shadow-lg scale-105"
-                  : "text-white/80 hover:bg-white/10"
+                  : "text-white/80 hover:bg-white/15"
               }`}
             >
-              <CalendarDays className="w-3.5 h-3.5" />
+              <CalendarDays className="w-4 h-4" />
               {day}/AGO
             </button>
           ))}

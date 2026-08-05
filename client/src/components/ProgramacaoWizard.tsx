@@ -128,12 +128,6 @@ export function ProgramacaoWizard() {
                                    ${currentStep === step.id ? "text-white" : "text-[#0E4DA4]"}`}>
                                     {step.label}
                                 </span>
-                                {step.description && (
-                                    <span className={`text-[12px] font-normal italic leading-[1.2] transition-colors mt-[3px] break-words whitespace-normal
-                                       ${currentStep === step.id ? "text-[#E0E0E0]" : "text-[#333333]"}`}>
-                                        {step.description}
-                                    </span>
-                                )}
                             </div>
                         </button>
                     ))}
