@@ -252,7 +252,7 @@ export default function Home() {
                     <UtensilsCrossed className="w-6 h-6 text-primary" />
                   </div>
                   <div>
-                    <CardTitle className="text-2xl text-primary">Roteiro Recomendado</CardTitle>
+                    <CardTitle className="text-2xl text-primary">Roteiro Sugerido</CardTitle>
                     <CardDescription>Gastronomia e pontos de destaque próximos para os participantes</CardDescription>
                   </div>
                 </div>
@@ -371,146 +371,59 @@ export default function Home() {
                   </p>
                 </div>
 
-                <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
-                  {/* Bloco 1 */}
+                <div className="grid sm:grid-cols-3 gap-6 sm:gap-8 pt-4">
+                  {/* Bloco 1: E-mail */}
                   <div className="space-y-3">
-                    <div className="flex items-center gap-3 text-accent font-bold">
-                      <Phone className="w-5 h-5" aria-hidden="true" />
-                      CONVÊNIOS
+                    <div className="flex items-center gap-3 text-accent font-bold text-sm tracking-wider uppercase">
+                      <Mail className="w-5 h-5 text-accent" aria-hidden="true" />
+                      E-MAIL
                     </div>
-                    <div className="space-y-4">
-                      <a
-                        href="https://wa.me/5541996167578"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex items-center gap-3 py-2 px-4 bg-[#25D366]/10 border border-[#25D366]/20 rounded-lg group hover:bg-[#25D366]/20 transition-all w-fit"
-                        aria-label="WhatsApp: (41) 99616-7578 (abre em nova janela)"
-                      >
-                        <div className="w-8 h-8 bg-[#25D366] rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
-                          <svg viewBox="0 0 24 24" width="20" height="20" fill="white">
-                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.414 0 .018 5.393 0 12.03c0 2.123.554 4.197 1.607 6.037L0 24l6.105-1.602a11.834 11.834 0 005.937 1.583h.005c6.635 0 12.03-5.394 12.033-12.031 0-3.212-1.25-6.231-3.518-8.498"></path>
-                          </svg>
-                        </div>
-                        <div className="flex flex-col">
-                          <span className="text-[#25D366] font-bold text-lg leading-tight">(41) 99616-7578</span>
-                          <span className="text-white/50 text-[10px] uppercase tracking-wider font-bold">WhatsApp</span>
-                        </div>
-                      </a>
-                      <a
-                        href="https://wa.me/5561996616928"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex items-center gap-3 py-2 px-4 bg-[#25D366]/10 border border-[#25D366]/20 rounded-lg group hover:bg-[#25D366]/20 transition-all w-fit"
-                        aria-label="WhatsApp: (61) 99661-6928 (abre em nova janela)"
-                      >
-                        <div className="w-8 h-8 bg-[#25D366] rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
-                          <svg viewBox="0 0 24 24" width="20" height="20" fill="white">
-                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.414 0 .018 5.393 0 12.03c0 2.123.554 4.197 1.607 6.037L0 24l6.105-1.602a11.834 11.834 0 005.937 1.583h.005c6.635 0 12.03-5.394 12.033-12.031 0-3.212-1.25-6.231-3.518-8.498"></path>
-                          </svg>
-                        </div>
-                        <div className="flex flex-col">
-                          <span className="text-[#25D366] font-bold text-lg leading-tight">(61) 99661-6928</span>
-                          <span className="text-white/50 text-[10px] uppercase tracking-wider font-bold">WhatsApp</span>
-                        </div>
-                      </a>
+                    <a
+                      href="mailto:comprassusp@mj.gov.br"
+                      className="block text-white hover:text-accent font-semibold text-base transition-colors underline"
+                    >
+                      comprassusp@mj.gov.br
+                    </a>
+                  </div>
+
+                  {/* Bloco 2: Telefone */}
+                  <div className="space-y-3">
+                    <div className="flex items-center gap-3 text-accent font-bold text-sm tracking-wider uppercase">
+                      <Phone className="w-5 h-5 text-accent" aria-hidden="true" />
+                      TELEFONE
+                    </div>
+                    <div className="space-y-1 text-white font-semibold text-base">
+                      <p>(61) 2025-3008</p>
+                      <p>(61) 2025-9796</p>
                     </div>
                   </div>
 
-                  {/* Bloco 2 */}
+                  {/* Bloco 3: WhatsApp Suporte */}
                   <div className="space-y-3">
-                    <div className="flex items-center gap-3 text-accent font-bold">
-                      <Phone className="w-5 h-5" aria-hidden="true" />
-                      FUNDO A FUNDO
+                    <div className="flex items-center gap-3 text-accent font-bold text-sm tracking-wider uppercase">
+                      <Phone className="w-5 h-5 text-accent" aria-hidden="true" />
+                      WHATSAPP SUPORTE
                     </div>
-                    <div className="space-y-4">
-                      <a
-                        href="https://wa.me/5551982943353"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex items-center gap-3 py-2 px-4 bg-[#25D366]/10 border border-[#25D366]/20 rounded-lg group hover:bg-[#25D366]/20 transition-all w-fit"
-                        aria-label="WhatsApp: (51) 98294-3353 (abre em nova janela)"
-                      >
-                        <div className="w-8 h-8 bg-[#25D366] rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
-                          <svg viewBox="0 0 24 24" width="20" height="20" fill="white">
-                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.414 0 .018 5.393 0 12.03c0 2.123.554 4.197 1.607 6.037L0 24l6.105-1.602a11.834 11.834 0 005.937 1.583h.005c6.635 0 12.03-5.394 12.033-12.031 0-3.212-1.25-6.231-3.518-8.498"></path>
-                          </svg>
-                        </div>
-                        <div className="flex flex-col">
-                          <span className="text-[#25D366] font-bold text-lg leading-tight">(51) 98294-3353</span>
-                          <span className="text-white/50 text-[10px] uppercase tracking-wider font-bold">WhatsApp</span>
-                        </div>
-                      </a>
-                    </div>
-                  </div>
-
-                  <div className="space-y-3">
-                    <div className="flex items-center gap-3 text-accent font-bold">
-                      <Phone className="w-5 h-5" aria-hidden="true" />
-                      LOGÍSTICA
-                    </div>
-                    <div className="space-y-4">
-                      <a
-                        href="https://wa.me/5585987655958"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex items-center gap-3 py-2 px-4 bg-[#25D366]/10 border border-[#25D366]/20 rounded-lg group hover:bg-[#25D366]/20 transition-all w-fit"
-                        aria-label="WhatsApp Logística"
-                      >
-                        <div className="w-8 h-8 bg-[#25D366] rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
-                          <svg viewBox="0 0 24 24" width="20" height="20" fill="white">
-                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.414 0 .018 5.393 0 12.03c0 2.123.554 4.197 1.607 6.037L0 24l6.105-1.602a11.834 11.834 0 005.937 1.583h.005c6.635 0 12.03-5.394 12.033-12.031 0-3.212-1.25-6.231-3.518-8.498"></path>
-                          </svg>
-                        </div>
-                        <div className="flex flex-col">
-                          <span className="text-[#25D366] font-bold text-lg leading-tight">(85) 98765-5958</span>
-                          <span className="text-white/50 text-[10px] uppercase tracking-wider font-bold">WhatsApp</span>
-                        </div>
-                      </a>
-                    </div>
-                  </div>
-
-                  {/* Bloco 4 */}
-                  <div className="space-y-3">
-                    <div className="flex items-center gap-3 text-accent font-bold">
-                      <Phone className="w-5 h-5" aria-hidden="true" />
-                      ORÇAMENTO
-                    </div>
-                    <div className="space-y-3">
-                      {/* Telefone Fixo */}
-                      <div className="flex items-center gap-3 py-2 px-4 bg-white/5 border border-white/10 rounded-lg w-fit">
-                        <Phone className="w-4 h-4 text-accent" />
-                        <div className="flex flex-col">
-                          <span className="text-white font-bold text-lg leading-tight">(61) 2025-9296 / 3965</span>
-                          <span className="text-white/50 text-[10px] uppercase tracking-wider font-bold">Telefone Fixo</span>
-                        </div>
+                    <a
+                      href="https://wa.me/5561981773636"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-3 py-2.5 px-4 bg-[#25D366]/10 border border-[#25D366]/30 rounded-xl group hover:bg-[#25D366]/20 transition-all w-fit"
+                      aria-label="WhatsApp Suporte: (61) 98177-3636"
+                    >
+                      <div className="w-8 h-8 bg-[#25D366] rounded-full flex items-center justify-center shadow-md group-hover:scale-110 transition-transform">
+                        <svg viewBox="0 0 24 24" width="18" height="18" fill="white">
+                          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.414 0 .018 5.393 0 12.03c0 2.123.554 4.197 1.607 6.037L0 24l6.105-1.602a11.834 11.834 0 005.937 1.583h.005c6.635 0 12.03-5.394 12.033-12.031 0-3.212-1.25-6.231-3.518-8.498"></path>
+                        </svg>
                       </div>
-
-                      {/* WhatsApp */}
-                      <a
-                        href="https://wa.me/5562985573787"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex items-center gap-3 py-2 px-4 bg-[#25D366]/10 border border-[#25D366]/20 rounded-lg group hover:bg-[#25D366]/20 transition-all w-fit"
-                        aria-label="WhatsApp Orçamento"
-                      >
-                        <div className="w-8 h-8 bg-[#25D366] rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
-                          <svg viewBox="0 0 24 24" width="20" height="20" fill="white" aria-hidden="true">
-                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.414 0 .018 5.393 0 12.03c0 2.123.554 4.197 1.607 6.037L0 24l6.105-1.602a11.834 11.834 0 005.937 1.583h.005c6.635 0 12.03-5.394 12.033-12.031 0-3.212-1.25-6.231-3.518-8.498"></path>
-                          </svg>
-                        </div>
-                        <div className="flex flex-col">
-                          <span className="text-[#25D366] font-bold text-lg leading-tight">(62) 98557-3787</span>
-                          <span className="text-white/50 text-[10px] uppercase tracking-wider font-bold">WhatsApp</span>
-                        </div>
-                      </a>
-                    </div>
+                      <div className="flex flex-col">
+                        <span className="text-[#25D366] font-bold text-lg leading-tight">(61) 98177-3636</span>
+                        <span className="text-white/60 text-[10px] uppercase tracking-wider font-bold">WhatsApp Suporte</span>
+                      </div>
+                    </a>
                   </div>
                 </div>
-
-
               </div>
-
-
             </div>
           </Card>
         </section>
