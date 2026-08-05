@@ -41,8 +41,10 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
           },
           {
             time: "14:45h às 16:15h",
-            title: "CONSESP — Reunião Técnica",
+            title: "CONSESP",
+            description: "Prospecção de tecnologia e conhecimento de inovações no âmbito do Susp",
             room: "Sala 01",
+            isHighlight: true,
           },
           {
             time: "16:15h às 16:30h",
@@ -51,8 +53,10 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
           },
           {
             time: "16:30h às 18h",
-            title: "CONSESP — Reunião Técnica",
+            title: "CONSESP",
+            description: "Prospecção de tecnologia e conhecimento de inovações no âmbito do Susp",
             room: "Sala 01",
+            isHighlight: true,
           },
         ],
       },
@@ -111,8 +115,10 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
           },
           {
             time: "14:45h às 16:15h",
-            title: "CNCG — Reunião Técnica",
+            title: "CNCG",
+            description: "Prospecção de tecnologia e conhecimento de inovações no âmbito do Susp",
             room: "Sala 02",
+            isHighlight: true,
           },
           {
             time: "16:15h às 16:30h",
@@ -121,8 +127,10 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
           },
           {
             time: "16:30h às 18h",
-            title: "CNCG — Reunião Técnica",
+            title: "CNCG",
+            description: "Prospecção de tecnologia e conhecimento de inovações no âmbito do Susp",
             room: "Sala 02",
+            isHighlight: true,
           },
         ],
       },
@@ -326,8 +334,10 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
           },
           {
             time: "14:45h às 16:15h",
-            title: "LIGABOM — Reunião Técnica",
+            title: "LIGABOM",
+            description: "Prospecção de tecnologia e conhecimento de inovações no âmbito do Susp",
             room: "Sala 03",
+            isHighlight: true,
           },
           {
             time: "16:15h às 16:30h",
@@ -336,8 +346,10 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
           },
           {
             time: "16:30h às 18h",
-            title: "LIGABOM — Reunião Técnica",
+            title: "LIGABOM",
+            description: "Prospecção de tecnologia e conhecimento de inovações no âmbito do Susp",
             room: "Sala 03",
+            isHighlight: true,
           },
         ],
       },
