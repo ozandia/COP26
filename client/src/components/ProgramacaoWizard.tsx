@@ -107,8 +107,8 @@ export function ProgramacaoWizard() {
     const gtiSteps = [
         {
             id: 1,
-            label: "Tranferências Obrigatórias",
-            description: "Rede Interfederativa de Transferências Fundo a Fundo",
+            label: "CONSESP",
+            description: "Conselho Nacional de Secretários de Segurança Pública",
             content: (
                 <div className="space-y-4">
                     <Day03Card />
@@ -118,8 +118,8 @@ export function ProgramacaoWizard() {
         },
         {
             id: 2,
-            label: "Tranferências Voluntárias",
-            description: "Rede Interfederativa de Convênios",
+            label: "CNCG",
+            description: "Conselho Nacional de Comandantes-Gerais",
             content: (
                 <div className="space-y-4">
                     <Day03Card />
@@ -131,8 +131,8 @@ export function ProgramacaoWizard() {
         },
         {
             id: 3,
-            label: "Orçamento",
-            description: "Câmaras Técnicas de Orçamento",
+            label: "CONCPC",
+            description: "Conselho Nacional dos Chefes de Polícia Civil",
             content: (
                 <div className="space-y-4">
                     <Day03Card />
