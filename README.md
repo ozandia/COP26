@@ -1,32 +1,30 @@
-# Guia do Participante — iLab2026
+# 2º Encontro Nacional ComprasSusp 2026
 
-Site estático + servidor Express com enquete interativa para o **Security Day**.
+Site institucional + servidor Express com enquete interativa e prestação de contas.
 
 ## Pré-requisitos
 
 | Ferramenta | Versão mínima |
 |---|---|
-| Node.js | 22 LTS |
-| pnpm | 10 |
+| Node.js | 18+ / 20+ |
+| npm / pnpm | 9+ / 10+ |
 
 ## Instalação local
 
 ```bash
-# Clone o repositório
-git clone https://github.com/vileganhon-sourc/Guia-do-Participante---Ilab2026.git
-cd Guia-do-Participante---Ilab2026
+# Clone o repositório correto
+git clone https://github.com/ozandia/COP26.git
+cd COP26
 
 # Instale as dependências
-pnpm install
+npm install
 
-# Configure as variáveis de ambiente
-cp .env.example .env
-
-# Inicie em modo desenvolvimento (hot-reload)
-pnpm run dev        # ou:  node_modules/.bin/tsx server/index.ts
+# Inicie em modo desenvolvimento (Vite dev server)
+npm run dev
 ```
 
-O app ficará disponível em **http://localhost:5000**.
+O app em modo desenvolvimento ficará disponível em **http://localhost:3000**.
+O servidor Express backend com a API de uploads roda em **http://localhost:5000**.
 
 ---
 
