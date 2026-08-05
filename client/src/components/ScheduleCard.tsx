@@ -84,7 +84,7 @@ export function ScheduleCard() {
                 {/* Section 1 — Static: Plenária */}
                 <div className="px-5 py-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1">
                     <span className="font-semibold text-slate-800">Plenária</span>
-                    <span className="text-sm text-slate-500">9h – 12h &nbsp;|&nbsp; CICB</span>
+                    <span className="text-sm text-slate-500">9h – 12h &nbsp;|&nbsp; Expo São Paulo</span>
                 </div>
 
                 {/* Section 2 — Accordion: Reunião Técnica */}

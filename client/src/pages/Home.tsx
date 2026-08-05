@@ -1,4 +1,4 @@
-﻿import { useState } from "react";
+import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -22,6 +22,7 @@ import {
 } from "lucide-react";
 import { TravelProgressBar } from "@/components/TravelProgressBar";
 import { ProgramacaoWizard } from "@/components/ProgramacaoWizard";
+import { PrestacaoContasUpload } from "@/components/PrestacaoContasUpload";
 
 /**
  * Design: Institucional Elegante com Modernidade Sutil
@@ -106,8 +107,8 @@ export default function Home() {
           <div className="absolute inset-0 z-0">
             <div className="absolute inset-0 bg-primary/70 z-10"></div>
             <img
-              src="/cicb.jpeg"
-              alt="CICB - Brasília"
+              src="/expo.jpeg"
+              alt="Expo São Paulo"
               className="w-full h-full object-cover"
             />
           </div>
@@ -116,34 +117,34 @@ export default function Home() {
             <div className="max-w-3xl space-y-8 animate-in fade-in slide-in-from-left-8 duration-1000">
               <div className="space-y-4">
                 <span className="inline-block px-4 py-1.5 bg-accent/20 text-accent font-bold rounded-full text-base tracking-widest uppercase">
-                  Brasília • 03-06 Março
+                  SÃO PAULO 11 - 12 - 13 AGOSTO
                 </span>
                 <h1 className="text-lg sm:text-4xl md:text-5xl font-bold text-white leading-tight">
-                  Encontro Nacional <br />
-                  <span className="text-accent underline decoration-white/20 underline-offset-8">Rede Interfederativa 2026</span>
+                  2º Encontro Nacional <br />
+                  <span className="text-accent underline decoration-white/20 underline-offset-8">ComprasSusp 2026</span>
                 </h1>
                 <p className="text-base sm:text-xl text-white/80 leading-relaxed font-light">
-                  Fortalecimento da articulação entre o Governo Federal e os entes federativos, aprimorando a execução orçamentária e a troca de informações técnicas.
+                  A excelência na gestão de contratações e aquisições fortalecendo a segurança pública em todo o Brasil.
                 </p>
               </div>
 
               <div className="flex flex-wrap items-center gap-4">
                 <div className="flex items-center gap-2 text-white">
                   <MapPin className="w-5 h-5 text-accent" aria-hidden="true" />
-                  <span className="font-semibold text-base sm:text-lg">CICB - Brasília/DF</span>
+                  <span className="font-semibold text-base sm:text-lg">São Paulo/SP</span>
                 </div>
               </div>
 
               <div className="flex flex-wrap gap-4 pt-2">
                 <Button asChild className="h-11 sm:h-14 px-6 sm:px-10 text-base sm:text-lg shadow-xl bg-accent text-primary font-bold hover:bg-accent/90 rounded-md transition-all">
                   <a
-                    href="https://www.google.com/maps/place/Centro+Internacional+de+Conven%C3%A7%C3%B5es+do+Brasil/@-15.812877,-47.832388,12z/data=!4m8!3m7!1s0x935a235b9cbb04f5:0x891cb2fcc1ef260!8m2!3d-15.8156846!4d-47.8447472!9m1!1b1!16s%2Fg%2F1q5gppnwh?hl=pt-BR&entry=ttu&g_ep=EgoyMDI2MDIyMi4wIKXMDSoASAFQAw%3D%3D"
+                    href="https://www.google.com/maps/search/?api=1&query=Expo+São+Paulo+Rodovia+dos+Imigrantes"
                     target="_blank"
                     rel="noopener noreferrer"
-                    aria-label="Ver localização do CICB no Google Maps (abre em nova janela)"
+                    aria-label="Ver localização do Expo São Paulo no Google Maps (abre em nova janela)"
                   >
                     <MapPinIcon className="w-5 h-5 mr-2" aria-hidden="true" />
-                    Localização CICB
+                    Localização Expo São Paulo
                   </a>
                 </Button>
               </div>
@@ -205,41 +206,8 @@ export default function Home() {
           </div>
 
           <Card className="card-premium border-accent/30 bg-accent/20">
-            <CardContent className="p-6 sm:p-12 space-y-8">
-              <p className="text-gray-600 text-base sm:text-lg leading-relaxed text-center max-w-3xl mx-auto">
-                A entrega da documentação é <span className="font-bold text-black underline decoration-accent/30 decoration-4">imprescindível</span> para a regularização da sua viagem no sistema.
-              </p>
-
-              <div className="grid sm:grid-cols-2 gap-4 sm:gap-8 max-w-4xl mx-auto">
-                <div className="flex items-center gap-4 p-5 sm:p-8 bg-white rounded-2xl shadow-xl shadow-primary/5 border border-primary/5 group hover:border-accent/30 transition-all">
-                  <div className="w-12 h-12 sm:w-16 sm:h-16 bg-primary/10 rounded-2xl flex items-center justify-center text-black text-xl sm:text-2xl font-black group-hover:bg-accent group-hover:text-black transition-all" aria-hidden="true">
-                    1
-                  </div>
-                  <div>
-                    <span className="text-base sm:text-xl font-bold text-gray-800 block">Relatório de Viagem</span>
-                    <span className="text-sm text-gray-500">Documento base detalhado</span>
-                  </div>
-                </div>
-                <div className="flex items-center gap-4 p-5 sm:p-8 bg-white rounded-2xl shadow-xl shadow-primary/5 border border-primary/5 group hover:border-accent/30 transition-all">
-                  <div className="w-12 h-12 sm:w-16 sm:h-16 bg-primary/10 rounded-2xl flex items-center justify-center text-black text-xl sm:text-2xl font-black group-hover:bg-accent group-hover:text-black transition-all" aria-hidden="true">
-                    2
-                  </div>
-                  <div>
-                    <span className="text-base sm:text-xl font-bold text-gray-800 block">Canhotos de Embarque</span>
-                    <span className="text-sm text-gray-500">Comprovantes originais</span>
-                  </div>
-                </div>
-              </div>
-
-              <div className="flex flex-col items-center gap-2 pt-8 border-t border-accent/10">
-                <div className="flex items-center gap-2 text-primary font-bold">
-                  <Clock className="w-5 h-5" aria-hidden="true" />
-                  PRAZO DE ENTREGA
-                </div>
-                <p className="text-base sm:text-lg font-semibold text-black text-center">
-                  Os Cartões de Embarque (Ida e volta) e Relatório de Viagem (Assinado) devem ser entregues até a data de retorno.
-                </p>
-              </div>
+            <CardContent className="p-6 sm:p-12">
+              <PrestacaoContasUpload />
             </CardContent>
           </Card>
         </section>
@@ -269,8 +237,8 @@ export default function Home() {
           <div className="flex items-center gap-4 mb-12">
             <div className="w-2 h-10 bg-accent rounded-full"></div>
             <div>
-              <h2 className="text-4xl font-bold text-primary">Brasília: Guia Rápido</h2>
-              <p className="text-gray-500 font-medium">Cultura e Gastronomia na Capital Federal</p>
+              <h2 className="text-4xl font-bold text-primary">São Paulo: Guia Rápido</h2>
+              <p className="text-gray-500 font-medium">Cultura e Gastronomia em São Paulo</p>
             </div>
           </div>
 
@@ -594,10 +562,10 @@ export default function Home() {
             <div className="space-y-4">
               <div className="flex items-center justify-center md:justify-start gap-3">
                 <div className="w-1 h-6 bg-primary rounded-full"></div>
-                <h3 className="text-lg font-bold text-primary tracking-tight">Rede Interfederativa 2026</h3>
+                <h3 className="text-lg font-bold text-primary tracking-tight">2º Encontro Nacional ComprasSusp 2026</h3>
               </div>
               <p className="text-sm text-gray-500 max-w-xs">
-                Fortalecimento da articulação entre o Governo Federal e os entes federativos, aprimorando a execução orçamentária e a troca de informações técnicas.
+                A excelência na gestão de contratações e aquisições fortalecendo a segurança pública em todo o Brasil.
               </p>
             </div>
 

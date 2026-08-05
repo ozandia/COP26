@@ -1,4 +1,4 @@
-﻿import { useState } from "react";
+import { useState } from "react";
 import { Clock, MapPin, Bus } from "lucide-react";
 import { ScheduleCard } from "@/components/ScheduleCard";
 import { ScheduleCardDay2 } from "@/components/ScheduleCardDay2";
@@ -16,7 +16,7 @@ function Day03Card() {
             </div>
             <div className="px-6 py-5">
                 <h3 className="text-base font-bold text-gray-900">Horário: 19h</h3>
-                <p className="text-sm text-gray-500 mt-1">Local: CICB</p>
+                <p className="text-sm text-gray-500 mt-1">Local: Expo São Paulo</p>
             </div>
         </div>
     );
@@ -30,7 +30,7 @@ function Day06Card() {
                 <h2 className="text-sm font-semibold text-slate-700">06 de março - Palestras SENASP</h2>
             </div>
             <div className="px-6 py-5 flex items-center">
-                <p className="text-sm text-gray-500">9h - 17h | CICB</p>
+                <p className="text-sm text-gray-500">9h - 17h | Expo São Paulo</p>
             </div>
         </div>
     );
