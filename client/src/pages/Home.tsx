@@ -252,7 +252,7 @@ export default function Home() {
                     <UtensilsCrossed className="w-6 h-6 text-primary" />
                   </div>
                   <div>
-                    <CardTitle className="text-2xl text-primary">Roteiro Recomendado — São Paulo</CardTitle>
+                    <CardTitle className="text-2xl text-primary">Roteiro Recomendado</CardTitle>
                     <CardDescription>Gastronomia e pontos de destaque próximos para os participantes</CardDescription>
                   </div>
                 </div>
