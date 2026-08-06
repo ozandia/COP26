@@ -120,7 +120,7 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
           {
             time: "9h às 10:30h",
             title: "CONSESP",
-            description: "Reunião de Planejamento - Ciclo 2027",
+            description: "ComprasSUSP e Fundo a Fundo: convergência para uma execução mais eficiente",
             room: "Sala 04",
             isHighlight: true,
           },
@@ -132,7 +132,7 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
           {
             time: "10:45h às 12:15h",
             title: "CONSESP",
-            description: "Reunião de Planejamento - Ciclo 2027",
+            description: "ComprasSUSP e Fundo a Fundo: convergência para uma execução mais eficiente",
             room: "Sala 04",
             isHighlight: true,
           },
