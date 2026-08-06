@@ -451,7 +451,9 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
           {
             time: "9h às 10:30h",
             title: "LIGABOM",
+            description: "Reunião de Planejamento - Ciclo 2027",
             room: "Sala 03",
+            isHighlight: true,
           },
           {
             time: "10:30h às 10:45h",
@@ -461,7 +463,9 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
           {
             time: "10:45h às 12:15h",
             title: "LIGABOM",
+            description: "Reunião de Planejamento - Ciclo 2027",
             room: "Sala 03",
+            isHighlight: true,
           },
         ],
         afternoon: [
