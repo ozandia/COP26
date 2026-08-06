@@ -188,6 +188,7 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
           {
             time: "10h às 12h",
             title: "Oficina Prática de Equipamentos não letais",
+            room: "Feira",
             isHighlight: true,
           },
         ],
