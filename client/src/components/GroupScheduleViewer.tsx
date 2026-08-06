@@ -137,7 +137,14 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
             isHighlight: true,
           },
         ],
-        afternoon: [],
+        afternoon: [
+          {
+            time: "14h às 18h",
+            title: "Prospecção de Tecnologia",
+            room: "Feira",
+            isHighlight: true,
+          },
+        ],
       },
     },
 
