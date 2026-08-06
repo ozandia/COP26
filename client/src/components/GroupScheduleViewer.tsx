@@ -369,25 +369,6 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
         dayNumber: "12/AGO",
         morning: [
           {
-            time: "9h às 10:30h",
-            title: "CONDPC",
-            description: "ComprasSUSP",
-            room: "Sala 01",
-            isHighlight: true,
-          },
-          {
-            time: "10:30h às 10:45h",
-            title: "INTERVALO",
-            isBreak: true,
-          },
-          {
-            time: "10:45h às 12:15h",
-            title: "CONDPC",
-            description: "ComprasSUSP",
-            room: "Sala 01",
-            isHighlight: true,
-          },
-          {
             time: "10h às 12h",
             title: "Visitação no Instituto de Criminalística de SP",
             isHighlight: true,
@@ -428,7 +409,27 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
         dateLabel: "Quinta-feira",
         dayNumber: "13/AGO",
         morning: [],
-        afternoon: [],
+        afternoon: [
+          {
+            time: "14h às 15:30h",
+            title: "CONDPC",
+            description: "ComprasSUSP",
+            room: "Sala 01",
+            isHighlight: true,
+          },
+          {
+            time: "15:30h às 15:45h",
+            title: "INTERVALO",
+            isBreak: true,
+          },
+          {
+            time: "15:45h às 18h",
+            title: "CONDPC",
+            description: "ComprasSUSP",
+            room: "Sala 01",
+            isHighlight: true,
+          },
+        ],
       },
     },
 
