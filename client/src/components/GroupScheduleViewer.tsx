@@ -81,7 +81,7 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
           },
           {
             time: "14:45h às 16:15h",
-            title: "CONSESP",
+            title: "GTI-CONSESP",
             description: "Prospecção de tecnologia e conhecimento de inovações no âmbito do Susp",
             room: "Sala 01",
             isHighlight: true,
@@ -93,7 +93,7 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
           },
           {
             time: "16:30h às 18h",
-            title: "CONSESP",
+            title: "GTI-CONSESP",
             description: "Prospecção de tecnologia e conhecimento de inovações no âmbito do Susp",
             room: "Sala 01",
             isHighlight: true,
@@ -119,7 +119,7 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
         morning: [
           {
             time: "9h às 10:30h",
-            title: "CONSESP",
+            title: "GTI-CONSESP",
             description: "ComprasSUSP e Fundo a Fundo: convergência para uma execução mais eficiente",
             room: "Sala 04",
             isHighlight: true,
@@ -131,7 +131,7 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
           },
           {
             time: "10:45h às 12:15h",
-            title: "CONSESP",
+            title: "GTI-CONSESP",
             description: "ComprasSUSP e Fundo a Fundo: convergência para uma execução mais eficiente",
             room: "Sala 04",
             isHighlight: true,
@@ -162,7 +162,7 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
           },
           {
             time: "14:45h às 16:15h",
-            title: "CNCG",
+            title: "GTI-CNCG",
             description: "Prospecção de tecnologia e conhecimento de inovações no âmbito do Susp",
             room: "Sala 02",
             isHighlight: true,
@@ -174,7 +174,7 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
           },
           {
             time: "16:30h às 18h",
-            title: "CNCG",
+            title: "GTI-CNCG",
             description: "Prospecção de tecnologia e conhecimento de inovações no âmbito do Susp",
             room: "Sala 02",
             isHighlight: true,
@@ -200,7 +200,7 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
         morning: [
           {
             time: "9h às 10:30h",
-            title: "CNCG",
+            title: "GTI-CNCG",
             description: "Reunião de Planejamento - Ciclo 2027",
             room: "Sala 02",
             isHighlight: true,
@@ -212,7 +212,7 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
           },
           {
             time: "10:45h às 12:15h",
-            title: "CNCG",
+            title: "GTI-CNCG",
             description: "Reunião de Planejamento - Ciclo 2027",
             room: "Sala 02",
             isHighlight: true,
@@ -236,7 +236,7 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
         morning: [
           {
             time: "9h às 10:30h",
-            title: "CNPC",
+            title: "GTI-CNPC",
             description: "Prospecção de tecnologia e conhecimento de inovações no âmbito do Susp",
             room: "Sala 04",
             isHighlight: true,
@@ -248,7 +248,7 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
           },
           {
             time: "10:45h às 12:15h",
-            title: "CNPC",
+            title: "GTI-CNPC",
             description: "Prospecção de tecnologia e conhecimento de inovações no âmbito do Susp",
             room: "Sala 04",
             isHighlight: true,
@@ -269,7 +269,7 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
         morning: [
           {
             time: "9h às 10:30h",
-            title: "CNPC",
+            title: "GTI-CNPC",
             description: "Reunião de Planejamento - Ciclo 2027",
             room: "Sala 04",
             isHighlight: true,
@@ -281,7 +281,7 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
           },
           {
             time: "10:45h às 12:15h",
-            title: "CNPC",
+            title: "GTI-CNPC",
             description: "Reunião de Planejamento - Ciclo 2027",
             room: "Sala 04",
             isHighlight: true,
@@ -325,7 +325,7 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
           },
           {
             time: "14:45h às 16:15h",
-            title: "CONDPCI",
+            title: "GTI-CONDPCI",
             description: "Prospecção de tecnologia e conhecimento de inovações no âmbito do Susp",
             room: "Sala 04",
             isHighlight: true,
@@ -337,7 +337,7 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
           },
           {
             time: "16:30h às 18h",
-            title: "CONDPCI",
+            title: "GTI-CONDPCI",
             description: "Prospecção de tecnologia e conhecimento de inovações no âmbito do Susp",
             room: "Sala 04",
             isHighlight: true,
@@ -377,7 +377,7 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
         afternoon: [
           {
             time: "14h às 15:30h",
-            title: "CONDPCI",
+            title: "GTI-CONDPCI",
             description: "Reunião de Planejamento - Ciclo 2027",
             room: "Sala 01",
             isHighlight: true,
@@ -389,7 +389,7 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
           },
           {
             time: "15:45h às 18h",
-            title: "CONDPCI",
+            title: "GTI-CONDPCI",
             description: "Reunião de Planejamento - Ciclo 2027",
             room: "Sala 01",
             isHighlight: true,
@@ -412,7 +412,7 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
           },
           {
             time: "14:45h às 16:15h",
-            title: "LIGABOM",
+            title: "GTI-LIGABOM",
             description: "Prospecção de tecnologia e conhecimento de inovações no âmbito do Susp",
             room: "Sala 03",
             isHighlight: true,
@@ -424,7 +424,7 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
           },
           {
             time: "16:30h às 18h",
-            title: "LIGABOM",
+            title: "GTI-LIGABOM",
             description: "Prospecção de tecnologia e conhecimento de inovações no âmbito do Susp",
             room: "Sala 03",
             isHighlight: true,
@@ -450,7 +450,7 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
         morning: [
           {
             time: "9h às 10:30h",
-            title: "LIGABOM",
+            title: "GTI-LIGABOM",
             description: "Reunião de Planejamento - Ciclo 2027",
             room: "Sala 03",
             isHighlight: true,
@@ -462,7 +462,7 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
           },
           {
             time: "10:45h às 12:15h",
-            title: "LIGABOM",
+            title: "GTI-LIGABOM",
             description: "Reunião de Planejamento - Ciclo 2027",
             room: "Sala 03",
             isHighlight: true,

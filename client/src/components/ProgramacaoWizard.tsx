@@ -8,60 +8,60 @@ export function ProgramacaoWizard() {
     const gtiSteps = [
         {
             id: 1,
-            label: "CONSESP",
+            label: "GTI-CONSESP",
             description: "Conselho Nacional de Secretários de Segurança Pública",
             content: (
                 <GroupScheduleViewer
                     groupKey="CONSESP"
-                    groupTitle="CONSESP"
+                    groupTitle="GTI-CONSESP"
                     groupDescription="Conselho Nacional de Secretários de Segurança Pública"
                 />
             )
         },
         {
             id: 2,
-            label: "CNCG",
+            label: "GTI-CNCG",
             description: "Conselho Nacional de Comandantes-Gerais",
             content: (
                 <GroupScheduleViewer
                     groupKey="CNCG"
-                    groupTitle="CNCG"
+                    groupTitle="GTI-CNCG"
                     groupDescription="Conselho Nacional de Comandantes-Gerais"
                 />
             )
         },
         {
             id: 3,
-            label: "CNPC",
+            label: "GTI-CNPC",
             description: "Conselho Nacional dos Chefes de Polícia Civil",
             content: (
                 <GroupScheduleViewer
                     groupKey="CNPC"
-                    groupTitle="CNPC"
+                    groupTitle="GTI-CNPC"
                     groupDescription="Conselho Nacional dos Chefes de Polícia Civil"
                 />
             )
         },
         {
             id: 4,
-            label: "CONDPCI",
+            label: "GTI-CONDPCI",
             description: "Conselho Nacional de Dirigentes de Perícia Criminal",
             content: (
                 <GroupScheduleViewer
                     groupKey="CONDPCI"
-                    groupTitle="CONDPCI"
+                    groupTitle="GTI-CONDPCI"
                     groupDescription="Conselho Nacional de Dirigentes de Perícia Criminal"
                 />
             )
         },
         {
             id: 5,
-            label: "LIGABOM",
+            label: "GTI-LIGABOM",
             description: "Ligação dos Corpos de Bombeiros Militares do Brasil",
             content: (
                 <GroupScheduleViewer
                     groupKey="LIGABOM"
-                    groupTitle="LIGABOM"
+                    groupTitle="GTI-LIGABOM"
                     groupDescription="Ligação dos Corpos de Bombeiros Militares do Brasil"
                 />
             )
