@@ -36,7 +36,7 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
           {
             time: "13h às 14:30h",
             title: "ABERTURA DO COP 2026",
-            room: "Salas 01, 02, 03 e 04",
+            room: "Plenária",
             isHighlight: true,
           },
           {
@@ -110,7 +110,7 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
           {
             time: "13h às 14:30h",
             title: "ABERTURA DO COP 2026",
-            room: "Salas 01, 02, 03 e 04",
+            room: "Plenária",
             isHighlight: true,
           },
           {
@@ -200,7 +200,7 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
           {
             time: "13h às 14:30h",
             title: "ABERTURA DO COP 2026",
-            room: "Salas 01, 02, 03 e 04",
+            room: "Plenária",
             isHighlight: true,
           },
         ],
@@ -255,7 +255,7 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
           {
             time: "13h às 14:30h",
             title: "ABERTURA DO COP 2026",
-            room: "Salas 01, 02, 03 e 04",
+            room: "Plenária",
             isHighlight: true,
           },
           {
@@ -329,7 +329,7 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
           {
             time: "13h às 14:30h",
             title: "ABERTURA DO COP 2026",
-            room: "Salas 01, 02, 03 e 04",
+            room: "Plenária",
             isHighlight: true,
           },
           {

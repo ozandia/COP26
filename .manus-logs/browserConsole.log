@@ -348,3 +348,9 @@
 [2026-08-05T13:20:03.194Z] {"timestamp":1785936000508,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
 [2026-08-05T13:20:03.195Z] {"timestamp":1785936000530,"level":"DEBUG","args":["[vite] connected."],"stack":null}
 [2026-08-05T13:20:03.195Z] {"timestamp":1785936000585,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-08-06T01:19:36.928Z] {"timestamp":1785979176359,"level":"LOG","args":["[vite] server connection lost. Polling for restart..."],"stack":null}
+[2026-08-06T01:19:39.974Z] {"timestamp":1785979177954,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-08-06T01:19:39.974Z] {"timestamp":1785979178644,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-08-06T01:19:39.974Z] {"timestamp":1785979178670,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-08-06T01:20:50.187Z] {"timestamp":1785979248364,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-08-06T01:20:50.187Z] {"timestamp":1785979248365,"level":"DEBUG","args":["[vite]","hot updated: /src/components/GroupScheduleViewer.tsx"],"stack":null}
