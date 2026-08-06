@@ -63,7 +63,13 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
       "12": {
         dateLabel: "Quarta-feira",
         dayNumber: "12/AGO",
-        morning: [],
+        morning: [
+          {
+            time: "10h às 12h",
+            title: "Oficina Prática de Análise e Geoprocessamento",
+            isHighlight: true,
+          },
+        ],
         afternoon: [
           {
             time: "14:30h às 15:15h (45 min)",
