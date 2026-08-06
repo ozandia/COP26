@@ -32,24 +32,24 @@ export function ProgramacaoWizard() {
         },
         {
             id: 3,
-            label: "CONCPC",
+            label: "CNPC",
             description: "Conselho Nacional dos Chefes de Polícia Civil",
             content: (
                 <GroupScheduleViewer
-                    groupKey="CONCPC"
-                    groupTitle="CONCPC"
+                    groupKey="CNPC"
+                    groupTitle="CNPC"
                     groupDescription="Conselho Nacional dos Chefes de Polícia Civil"
                 />
             )
         },
         {
             id: 4,
-            label: "CONDPC",
+            label: "CONDPCI",
             description: "Conselho Nacional de Dirigentes de Perícia Criminal",
             content: (
                 <GroupScheduleViewer
-                    groupKey="CONDPC"
-                    groupTitle="CONDPC"
+                    groupKey="CONDPCI"
+                    groupTitle="CONDPCI"
                     groupDescription="Conselho Nacional de Dirigentes de Perícia Criminal"
                 />
             )

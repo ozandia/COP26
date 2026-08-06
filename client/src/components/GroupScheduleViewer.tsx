@@ -25,7 +25,7 @@ interface DaySchedule {
 }
 
 interface GroupScheduleViewerProps {
-  groupKey: "CONSESP" | "CNCG" | "CONCPC" | "CONDPC" | "LIGABOM";
+  groupKey: "CONSESP" | "CNCG" | "CNPC" | "CONDPCI" | "LIGABOM";
   groupTitle: string;
   groupDescription: string;
 }
@@ -209,14 +209,14 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
       },
     },
 
-    CONCPC: {
+    CNPC: {
       "11": {
         dateLabel: "Terça-feira",
         dayNumber: "11/AGO",
         morning: [
           {
             time: "9h às 10:30h",
-            title: "CONCPC",
+            title: "CNPC",
             description: "Prospecção de tecnologia e conhecimento de inovações no âmbito do Susp",
             room: "Sala 04",
             isHighlight: true,
@@ -228,7 +228,7 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
           },
           {
             time: "10:45h às 12:15h",
-            title: "CONCPC",
+            title: "CNPC",
             description: "Prospecção de tecnologia e conhecimento de inovações no âmbito do Susp",
             room: "Sala 04",
             isHighlight: true,
@@ -249,7 +249,7 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
         morning: [
           {
             time: "9h às 10:30h",
-            title: "CONCPC",
+            title: "CNPC",
             description: "ComprasSUSP",
             room: "Sala 04",
             isHighlight: true,
@@ -261,7 +261,7 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
           },
           {
             time: "10:45h às 12:15h",
-            title: "CONCPC",
+            title: "CNPC",
             description: "ComprasSUSP",
             room: "Sala 04",
             isHighlight: true,
@@ -277,7 +277,7 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
       },
     },
 
-    CONDPC: {
+    CONDPCI: {
       "11": {
         dateLabel: "Terça-feira",
         dayNumber: "11/AGO",
@@ -291,7 +291,7 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
           },
           {
             time: "14:45h às 16:15h",
-            title: "CONDPC",
+            title: "CONDPCI",
             description: "Prospecção de tecnologia e conhecimento de inovações no âmbito do Susp",
             room: "Sala 04",
             isHighlight: true,
@@ -303,7 +303,7 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
           },
           {
             time: "16:30h às 18h",
-            title: "CONDPC",
+            title: "CONDPCI",
             description: "Prospecção de tecnologia e conhecimento de inovações no âmbito do Susp",
             room: "Sala 04",
             isHighlight: true,
@@ -336,7 +336,7 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
         afternoon: [
           {
             time: "14h às 15:30h",
-            title: "CONDPC",
+            title: "CONDPCI",
             description: "ComprasSUSP",
             room: "Sala 01",
             isHighlight: true,
@@ -348,7 +348,7 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
           },
           {
             time: "15:45h às 18h",
-            title: "CONDPC",
+            title: "CONDPCI",
             description: "ComprasSUSP",
             room: "Sala 01",
             isHighlight: true,
