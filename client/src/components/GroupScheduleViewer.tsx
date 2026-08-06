@@ -119,7 +119,7 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
           {
             time: "9h às 10:30h",
             title: "CONSESP",
-            description: "ComprasSUSP",
+            description: "Reunião de Planejamento - Ciclo 2027",
             room: "Sala 04",
             isHighlight: true,
           },
@@ -131,7 +131,7 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
           {
             time: "10:45h às 12:15h",
             title: "CONSESP",
-            description: "ComprasSUSP",
+            description: "Reunião de Planejamento - Ciclo 2027",
             room: "Sala 04",
             isHighlight: true,
           },
@@ -250,7 +250,7 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
           {
             time: "9h às 10:30h",
             title: "CNPC",
-            description: "ComprasSUSP",
+            description: "Reunião de Planejamento - Ciclo 2027",
             room: "Sala 04",
             isHighlight: true,
           },
@@ -262,7 +262,7 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
           {
             time: "10:45h às 12:15h",
             title: "CNPC",
-            description: "ComprasSUSP",
+            description: "Reunião de Planejamento - Ciclo 2027",
             room: "Sala 04",
             isHighlight: true,
           },
@@ -337,7 +337,7 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
           {
             time: "14h às 15:30h",
             title: "CONDPCI",
-            description: "ComprasSUSP",
+            description: "Reunião de Planejamento - Ciclo 2027",
             room: "Sala 01",
             isHighlight: true,
           },
@@ -349,7 +349,7 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
           {
             time: "15:45h às 18h",
             title: "CONDPCI",
-            description: "ComprasSUSP",
+            description: "Reunião de Planejamento - Ciclo 2027",
             room: "Sala 01",
             isHighlight: true,
           },
