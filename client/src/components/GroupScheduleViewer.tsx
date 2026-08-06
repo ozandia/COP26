@@ -434,7 +434,14 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
       "12": {
         dateLabel: "Quarta-feira",
         dayNumber: "12/AGO",
-        morning: [],
+        morning: [
+          {
+            time: "10h às 12h",
+            title: "Prospecção de Tecnologia",
+            room: "Feira",
+            isHighlight: true,
+          },
+        ],
         afternoon: fnspAfternoonItem,
       },
       "13": {
@@ -457,7 +464,14 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
             room: "Sala 03",
           },
         ],
-        afternoon: [],
+        afternoon: [
+          {
+            time: "14h às 18h",
+            title: "Prospecção de Tecnologia",
+            room: "Feira",
+            isHighlight: true,
+          },
+        ],
       },
     },
   };
