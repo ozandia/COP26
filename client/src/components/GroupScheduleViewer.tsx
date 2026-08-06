@@ -375,6 +375,11 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
             room: "Sala 01",
             isHighlight: true,
           },
+          {
+            time: "10h às 12h",
+            title: "Visitação no Instituto de Criminalística de SP",
+            isHighlight: true,
+          },
         ],
         afternoon: [
           {
