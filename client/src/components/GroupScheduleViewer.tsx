@@ -107,6 +107,7 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
           {
             time: "10h às 12h",
             title: "Oficina Prática de Análise e Geoprocessamento",
+            room: "Feira",
             isHighlight: true,
           },
         ],
