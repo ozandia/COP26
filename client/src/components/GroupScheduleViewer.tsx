@@ -343,6 +343,13 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
             room: "Sala 04",
             isHighlight: true,
           },
+          {
+            time: "18h às 19h",
+            title: "Apresentação do projeto SINAPSE",
+            description: "Dir. do INC PCF Palhares",
+            room: "Sala 04",
+            isHighlight: true,
+          },
         ],
       },
       "12": {
