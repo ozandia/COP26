@@ -365,7 +365,14 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
       "13": {
         dateLabel: "Quinta-feira",
         dayNumber: "13/AGO",
-        morning: [],
+        morning: [
+          {
+            time: "9h às 12h",
+            title: "Prospecção de Tecnologia",
+            room: "Feira",
+            isHighlight: true,
+          },
+        ],
         afternoon: [
           {
             time: "14h às 15:30h",
