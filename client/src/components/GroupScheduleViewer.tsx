@@ -356,7 +356,7 @@ export function GroupScheduleViewer({ groupKey, groupTitle, groupDescription }: 
         dayNumber: "12/AGO",
         morning: [
           {
-            time: "10h às 12h",
+            time: "9h às 12h",
             title: "Visitação no Instituto de Criminalística de SP",
             isHighlight: true,
           },
