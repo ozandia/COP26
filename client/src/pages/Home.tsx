@@ -120,8 +120,8 @@ export default function Home() {
                   SÃO PAULO 11 - 12 - 13 AGOSTO
                 </span>
                 <h1 className="text-lg sm:text-4xl md:text-5xl font-bold text-white leading-tight">
-                  1ª Reunião Ordinária <br />
-                  <span className="text-accent underline decoration-white/20 underline-offset-8">ComprasSusp - Ciclo 2027</span>
+                  2ª Reunião Técnica do <br />
+                  <span className="text-accent underline decoration-white/20 underline-offset-8">ComprasSusp 2026</span>
                 </h1>
                 <p className="text-base sm:text-xl text-white/80 leading-relaxed font-light">
                   A excelência na gestão de contratações e aquisições fortalecendo a segurança pública em todo o Brasil.
@@ -436,7 +436,7 @@ export default function Home() {
             <div className="space-y-4">
               <div className="flex items-center justify-center md:justify-start gap-3">
                 <div className="w-1 h-6 bg-primary rounded-full"></div>
-                <h3 className="text-lg font-bold text-primary tracking-tight">1ª Reunião Ordinária ComprasSusp - Ciclo 2027</h3>
+                <h3 className="text-lg font-bold text-primary tracking-tight">2ª Reunião Técnica do ComprasSusp 2026</h3>
               </div>
               <p className="text-sm text-gray-500 max-w-xs">
                 A excelência na gestão de contratações e aquisições fortalecendo a segurança pública em todo o Brasil.
